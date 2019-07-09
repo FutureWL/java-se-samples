@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-servlet" />
+        <module name="spring-samples" />
+        <module name="spring-cloud" />
+        <module name="shardingshpere-jdbc" />
+        <module name="netty" />
+        <module name="spring-data-redis" />
+        <module name="spring-security" />
+        <module name="spring-boot-reactive" />
+        <module name="shiro" />
+        <module name="spring-data-jdbc" />
+        <module name="spring-data-rest" />
         <module name="druid-spring-boot-starter-samples" />
         <module name="spring" />
-        <module name="spring-cloud" />
-        <module name="spring-boot-reactive" />
-        <module name="spring-samples" />
-        <module name="shardingshpere-jdbc" />
-        <module name="spring-boot-servlet" />
+        <module name="dubbo" />
+        <module name="spring-data-jpa" />
       </profile>
       <profile name="Annotation profile for samples" enabled="true">
         <sourceOutputDir name="../../druid-samples/druid-spring-boot-starter-samples/target/generated-sources/annotations" />
@@ -26,9 +34,12 @@
       <module name="druid-samples" target="1.8" />
       <module name="druid-spring-boot-starter" target="1.8" />
       <module name="druid-spring-boot-starter-samples" target="1.8" />
+      <module name="dubbo" target="1.8" />
+      <module name="netty" target="1.8" />
       <module name="samples" target="1.8" />
       <module name="shardingshpere-jdbc" target="1.8" />
       <module name="shardingsphere" target="1.8" />
+      <module name="shiro" target="1.8" />
       <module name="spring" target="1.8" />
       <module name="spring-boot" target="1.8" />
       <module name="spring-boot-reactive" target="1.8" />
@@ -38,7 +49,13 @@
       <module name="spring-boot-webflux" target="1.8" />
       <module name="spring-boot-webmvc" target="1.8" />
       <module name="spring-cloud" target="1.8" />
+      <module name="spring-data" target="1.8" />
+      <module name="spring-data-jdbc" target="1.8" />
+      <module name="spring-data-jpa" target="1.8" />
+      <module name="spring-data-redis" target="1.8" />
+      <module name="spring-data-rest" target="1.8" />
       <module name="spring-samples" target="1.8" />
+      <module name="spring-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
