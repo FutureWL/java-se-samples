@@ -9,29 +9,36 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-samples</module>
-        <module>druid-samples</module>
+        <module>druid</module>
         <module>shardingsphere</module>
+        <module>spring</module>
+        <module>spring-boot</module>
+        <module>spring-cloud</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- spring boot version -->
-        <spring-boot-1-5-x.version>1.5.21.RELEASE</spring-boot-1-5-x.version>
-        <spring-boot-2-0-x.version>2.0.9.RELEASE</spring-boot-2-0-x.version>
-        <spring-boot-2-1-x.version>2.1.6.RELEASE</spring-boot-2-1-x.version>
-        <!-- spring cloud greenwich version -->
-        <spring-cloud-greenwich.version>Greenwich.SR2</spring-cloud-greenwich.version>
-        <spring-cloud-greenwich-spring-boot.version>${spring-boot-2-1-x.version}</spring-cloud-greenwich-spring-boot.version>
-        <!-- spring cloud finchley version -->
-        <spring-cloud-finchley.version>Finchley.SR3</spring-cloud-finchley.version>
-        <spring-cloud-finchley-spring-boot.version>${spring-boot-2-0-x.version}</spring-cloud-finchley-spring-boot.version>
-        <!-- spring cloud edgware version -->
-        <spring-cloud-edgware.version>Edgware.SR6</spring-cloud-edgware.version>
-        <spring-cloud-edgware-spring-boot.version>${spring-boot-1-5-x.version}</spring-cloud-edgware-spring-boot.version>
     </properties>
 
-
+    <dependencyManagement>
+        <dependencies>
+            <!-- Override Spring Data release train provided by Spring Boot -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-releasetrain</artifactId>
+                <version>Fowler-SR2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.1.6.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
