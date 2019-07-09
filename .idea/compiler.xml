@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-samples" />
+        <module name="shardingshpere-jdbc" />
+      </profile>
+      <profile name="Annotation profile for samples" enabled="true">
+        <sourceOutputDir name="../../druid-samples/druid-spring-boot-starter-samples/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../druid-samples/druid-spring-boot-starter-samples/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="druid-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="druid" target="1.8" />
+      <module name="druid-spring-boot-starter" target="1.8" />
+      <module name="samples" target="1.8" />
+      <module name="shardingshpere-jdbc" target="1.8" />
+      <module name="shardingsphere" target="1.8" />
+      <module name="spring-boot-samples" target="1.5" />
+      <module name="spring-samples" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

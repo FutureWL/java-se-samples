@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/druid/druid.iml" filepath="$PROJECT_DIR$/druid/druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/druid/druid-spring-boot-starter/druid-spring-boot-starter.iml" filepath="$PROJECT_DIR$/druid/druid-spring-boot-starter/druid-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/samples.iml" filepath="$PROJECT_DIR$/.idea/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shardingsphere/shardingshpere-jdbc/shardingshpere-jdbc.iml" filepath="$PROJECT_DIR$/shardingsphere/shardingshpere-jdbc/shardingshpere-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shardingsphere/shardingsphere.iml" filepath="$PROJECT_DIR$/shardingsphere/shardingsphere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-samples/spring-samples.iml" filepath="$PROJECT_DIR$/spring-samples/spring-samples.iml" />
+    </modules>
+  </component>
+</project>
