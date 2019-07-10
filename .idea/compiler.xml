@@ -6,38 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-servlet" />
-        <module name="spring-samples" />
-        <module name="spring-boot-starter-activemq" />
-        <module name="spring-cloud" />
-        <module name="spring-boot-starter-data-redis" />
-        <module name="shardingshpere-jdbc" />
-        <module name="spring-boot-starter-mail" />
-        <module name="netty" />
         <module name="spring-data-redis" />
+        <module name="spring-samples" />
+        <module name="druid-spring-boot-starter" />
+        <module name="spring-data-jpa" />
+        <module name="dubbo" />
+        <module name="spring-cloud" />
+        <module name="spring-boot-starter-activemq" />
+        <module name="shardingshpere-jdbc" />
+        <module name="netty" />
+        <module name="shiro" />
         <module name="spring-boot-starter-data-jpa" />
         <module name="spring-security" />
-        <module name="spring-boot-reactive" />
-        <module name="shiro" />
-        <module name="spring-data-jdbc" />
-        <module name="spring-data-rest" />
-        <module name="spring-boot-starter-web-services" />
-        <module name="druid-spring-boot-starter-samples" />
-        <module name="spring" />
-        <module name="spring-boot-starter-data-jdbc" />
-        <module name="spring-boot-starter-websocket" />
-        <module name="spring-boot-starter-amqp" />
-        <module name="spring-boot-starter-webflux" />
-        <module name="dubbo" />
-        <module name="spring-data-jpa" />
         <module name="spring-boot-starter-data-mongodb" />
         <module name="spring-boot-starter-web" />
-      </profile>
-      <profile name="Annotation profile for samples" enabled="true">
-        <sourceOutputDir name="../../druid-samples/druid-spring-boot-starter-samples/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../druid-samples/druid-spring-boot-starter-samples/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="druid-spring-boot-starter" />
+        <module name="spring" />
+        <module name="spring-data-jdbc" />
+        <module name="spring-data-rest" />
+        <module name="spring-boot-starter-mail" />
+        <module name="spring-boot-reactive" />
+        <module name="spring-boot-starter-websocket" />
+        <module name="spring-boot-starter-webflux" />
+        <module name="spring-boot-starter-amqp" />
+        <module name="spring-boot-starter-data-redis" />
+        <module name="spring-boot-starter-data-jdbc" />
+        <module name="spring-boot-servlet" />
+        <module name="spring-boot-starter-web-services" />
+        <module name="druid-spring-boot-starter-samples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
