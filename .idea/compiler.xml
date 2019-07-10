@@ -9,9 +9,11 @@
         <module name="spring-boot-servlet" />
         <module name="spring-samples" />
         <module name="spring-cloud" />
+        <module name="spring-boot-starter-data-redis" />
         <module name="shardingshpere-jdbc" />
         <module name="netty" />
         <module name="spring-data-redis" />
+        <module name="spring-boot-starter-data-jpa" />
         <module name="spring-security" />
         <module name="spring-boot-reactive" />
         <module name="shiro" />
@@ -19,8 +21,10 @@
         <module name="spring-data-rest" />
         <module name="druid-spring-boot-starter-samples" />
         <module name="spring" />
+        <module name="spring-boot-starter-data-jdbc" />
         <module name="dubbo" />
         <module name="spring-data-jpa" />
+        <module name="spring-boot-starter-data-mongodb" />
       </profile>
       <profile name="Annotation profile for samples" enabled="true">
         <sourceOutputDir name="../../druid-samples/druid-spring-boot-starter-samples/target/generated-sources/annotations" />
@@ -45,6 +49,10 @@
       <module name="spring-boot-reactive" target="1.8" />
       <module name="spring-boot-samples" target="1.5" />
       <module name="spring-boot-servlet" target="1.8" />
+      <module name="spring-boot-starter-data-jdbc" target="1.8" />
+      <module name="spring-boot-starter-data-jpa" target="1.8" />
+      <module name="spring-boot-starter-data-mongodb" target="1.8" />
+      <module name="spring-boot-starter-data-redis" target="1.8" />
       <module name="spring-boot-web" target="1.8" />
       <module name="spring-boot-webflux" target="1.8" />
       <module name="spring-boot-webmvc" target="1.8" />
