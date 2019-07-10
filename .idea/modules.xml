@@ -16,10 +16,17 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-reactive/spring-boot-reactive.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-reactive/spring-boot-reactive.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-servlet/spring-boot-servlet.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-servlet/spring-boot-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-activemq/spring-boot-starter-activemq.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-activemq/spring-boot-starter-activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-amqp/spring-boot-starter-amqp.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-amqp/spring-boot-starter-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-data-jdbc/spring-boot-starter-data-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-data-jdbc/spring-boot-starter-data-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-data-jpa/spring-boot-starter-data-jpa.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-data-jpa/spring-boot-starter-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-data-mongodb/spring-boot-starter-data-mongodb.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-data-mongodb/spring-boot-starter-data-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-data-redis/spring-boot-starter-data-redis.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-data-redis/spring-boot-starter-data-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-mail/spring-boot-starter-mail.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-mail/spring-boot-starter-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-web/spring-boot-starter-web.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-web/spring-boot-starter-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-web-services/spring-boot-starter-web-services.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-web-services/spring-boot-starter-web-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-webflux/spring-boot-starter-webflux.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-webflux/spring-boot-starter-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-starter-websocket/spring-boot-starter-websocket.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-starter-websocket/spring-boot-starter-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data.iml" filepath="$PROJECT_DIR$/spring-data/spring-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data-jdbc/spring-data-jdbc.iml" filepath="$PROJECT_DIR$/spring-data/spring-data-jdbc/spring-data-jdbc.iml" />

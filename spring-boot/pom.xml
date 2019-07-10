@@ -18,6 +18,13 @@
         <module>spring-boot-starter-data-jpa</module>
         <module>spring-boot-starter-data-mongodb</module>
         <module>spring-boot-starter-data-redis</module>
+        <module>spring-boot-starter-mail</module>
+        <module>spring-boot-starter-activemq</module>
+        <module>spring-boot-starter-amqp</module>
+        <module>spring-boot-starter-web</module>
+        <module>spring-boot-starter-webflux</module>
+        <module>spring-boot-starter-websocket</module>
+        <module>spring-boot-starter-web-services</module>
     </modules>
 
 
