@@ -8,31 +8,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-data-redis" />
         <module name="spring-samples" />
-        <module name="druid-spring-boot-starter" />
-        <module name="spring-data-jpa" />
-        <module name="dubbo" />
+        <module name="spring-boot-starter-web" />
         <module name="spring-cloud" />
         <module name="spring-boot-starter-activemq" />
         <module name="shardingshpere-jdbc" />
         <module name="netty" />
         <module name="shiro" />
         <module name="spring-boot-starter-data-jpa" />
-        <module name="spring-security" />
         <module name="spring-boot-starter-data-mongodb" />
-        <module name="spring-boot-starter-web" />
-        <module name="spring" />
+        <module name="spring-boot-starter-data-redis" />
         <module name="spring-data-jdbc" />
         <module name="spring-data-rest" />
+        <module name="spring-security-helloworld" />
         <module name="spring-boot-starter-mail" />
-        <module name="spring-boot-reactive" />
+        <module name="spring" />
         <module name="spring-boot-starter-websocket" />
-        <module name="spring-boot-starter-webflux" />
+        <module name="druid-spring-boot-starter" />
         <module name="spring-boot-starter-amqp" />
-        <module name="spring-boot-starter-data-redis" />
-        <module name="spring-boot-starter-data-jdbc" />
-        <module name="spring-boot-servlet" />
+        <module name="spring-boot-starter-webflux" />
+        <module name="dubbo" />
+        <module name="spring-data-jpa" />
         <module name="spring-boot-starter-web-services" />
         <module name="druid-spring-boot-starter-samples" />
+        <module name="spring-boot-starter-data-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +39,7 @@
       <module name="druid-spring-boot-starter" target="1.8" />
       <module name="druid-spring-boot-starter-samples" target="1.8" />
       <module name="dubbo" target="1.8" />
+      <module name="dubbo-spring-boot-starter" target="1.8" />
       <module name="netty" target="1.8" />
       <module name="samples" target="1.8" />
       <module name="shardingshpere-jdbc" target="1.8" />
@@ -73,6 +72,36 @@
       <module name="spring-data-rest" target="1.8" />
       <module name="spring-samples" target="1.8" />
       <module name="spring-security" target="1.8" />
+      <module name="spring-security-helloworld" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="druid-spring-boot-starter" options="-parameters" />
+      <module name="dubbo" options="-parameters" />
+      <module name="dubbo-spring-boot-starter" options="-parameters" />
+      <module name="netty" options="-parameters" />
+      <module name="shardingshpere-jdbc" options="-parameters" />
+      <module name="shiro" options="-parameters" />
+      <module name="spring" options="-parameters" />
+      <module name="spring-boot-starter-activemq" options="-parameters" />
+      <module name="spring-boot-starter-amqp" options="-parameters" />
+      <module name="spring-boot-starter-data-jdbc" options="-parameters" />
+      <module name="spring-boot-starter-data-jpa" options="-parameters" />
+      <module name="spring-boot-starter-data-mongodb" options="-parameters" />
+      <module name="spring-boot-starter-data-redis" options="-parameters" />
+      <module name="spring-boot-starter-mail" options="-parameters" />
+      <module name="spring-boot-starter-web" options="-parameters" />
+      <module name="spring-boot-starter-web-services" options="-parameters" />
+      <module name="spring-boot-starter-webflux" options="-parameters" />
+      <module name="spring-boot-starter-websocket" options="-parameters" />
+      <module name="spring-cloud" options="-parameters" />
+      <module name="spring-data-jdbc" options="-parameters" />
+      <module name="spring-data-jpa" options="-parameters" />
+      <module name="spring-data-redis" options="-parameters" />
+      <module name="spring-data-rest" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
+      <module name="spring-security-helloworld" options="" />
+    </option>
   </component>
 </project>

@@ -12,8 +12,6 @@
     <artifactId>spring-boot</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-boot-reactive</module>
-        <module>spring-boot-servlet</module>
         <module>spring-boot-starter-data-jdbc</module>
         <module>spring-boot-starter-data-jpa</module>
         <module>spring-boot-starter-data-mongodb</module>

@@ -3,9 +3,14 @@ package io.github.futurewl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * 功能描述：
+ *
+ * @author weilai
+ */
 @SpringBootApplication
-public class SpringBootServletApplication {
+public class SpringSecurityHelloWorldApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootServletApplication.class, args);
+        SpringApplication.run(SpringSecurityHelloWorldApplication.class, args);
     }
 }
